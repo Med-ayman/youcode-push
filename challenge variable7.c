@@ -1,9 +1,9 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 int main() {
 
     float nombre1, nombre2, nombre3;
-    float pondération1 = 2, pondération2 = 3, pondération3 = 5;
+    float pondÃ©ration1 = 2, pondÃ©ration2 = 3, pondÃ©ration3 = 5;
     float moyennePonderee;
     float sommePonderations;
 
@@ -11,17 +11,17 @@ int main() {
     printf("Entrez le premier nombre : ");
     scanf("%f", &nombre1);
 
-    printf("Entrez le deuxième nombre : ");
+    printf("Entrez le deuxiÃ¨me nombre : ");
     scanf("%f", &nombre2);
 
-    printf("Entrez le troisième nombre : ");
+    printf("Entrez le troisiÃ¨me nombre : ");
     scanf("%f", &nombre3);
 
-    sommePonderations = pondération1 + pondération2 + pondération3;
+    sommePonderations = pondÃ©ration1 + pondÃ©ration2 + pondÃ©ration3;
 
-    moyennePonderee = (nombre1 * pondération1 + nombre2 * pondération2 + nombre3 * pondération3) / sommePonderations;
+    moyennePonderee = (nombre1 * pondÃ©ration1 + nombre2 * pondÃ©ration2 + nombre3 * pondÃ©ration3) / sommePonderations;
 
-    printf("La moyenne pondérée est : %f\n", moyennePonderee);
+    printf("La moyenne pondÃ©rÃ©e est : %f\n", moyennePonderee);
 
     return 0;
 }
